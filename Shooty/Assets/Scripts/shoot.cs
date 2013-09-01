@@ -16,7 +16,7 @@ public class shoot : MonoBehaviour
 		//shootyshoot
 		if((Input.GetAxis("FireHorizontal") != 0.0f || Input.GetAxis("FireVertical") != 0.0f) && canShoot)
 		{
-			Vector3 shootDirection = new Vector3(Input.GetAxis("FireHorizontal"),Input.GetAxis("FireVertical"), 0).normalized;
+			Vector3 shootDirection = new Vector3(Input.GetAxis("FireHorizontal"), 0,Input.GetAxis("FireVertical")).normalized;
 			GameObject bulletInstance = Instantiate(bullet,transform.position,Quaternion.LookRotation(shootDirection)) as GameObject;
 			bulletInstance.rigidbody.AddForce(shootDirection*bulletSpeed,ForceMode.VelocityChange);
 			canShoot = false;
