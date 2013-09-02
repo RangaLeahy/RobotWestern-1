@@ -47,8 +47,10 @@
      <Compile Include="Assets\Scripts\DestroyBullet.cs" />
      <Compile Include="Assets\Scripts\DestroyOnInvisible.cs" />
      <Compile Include="Assets\Scripts\EnemyDeath.cs" />
-     <Compile Include="Assets\Scripts\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\FollowPlayer.cs" />
+     <Compile Include="Assets\Scripts\PlayerDeath.cs" />
+     <Compile Include="Assets\Scripts\RandomSpawner.cs" />
+     <Compile Include="Assets\Scripts\Restart.cs" />
      <Compile Include="Assets\Scripts\playercontrol.cs" />
      <Compile Include="Assets\Scripts\shoot.cs" />
   </ItemGroup>
