@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\PlayerDeath.cs" />
      <Compile Include="Assets\Scripts\RandomSpawner.cs" />
      <Compile Include="Assets\Scripts\Restart.cs" />
+     <Compile Include="Assets\Scripts\ShootForward.cs" />
      <Compile Include="Assets\Scripts\playercontrol.cs" />
      <Compile Include="Assets\Scripts\shoot.cs" />
   </ItemGroup>
