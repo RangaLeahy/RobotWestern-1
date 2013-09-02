@@ -48,7 +48,6 @@
      <Compile Include="Assets\Scripts\DestroyOnInvisible.cs" />
      <Compile Include="Assets\Scripts\EnemyDeath.cs" />
      <Compile Include="Assets\Scripts\FollowPlayer.cs" />
-     <Compile Include="Assets\Scripts\LookAtMouse.cs" />
      <Compile Include="Assets\Scripts\PlayerDeath.cs" />
      <Compile Include="Assets\Scripts\RandomSpawner.cs" />
      <Compile Include="Assets\Scripts\Restart.cs" />
