@@ -51,7 +51,11 @@
      <Compile Include="Assets\Scripts\PlayerDeath.cs" />
      <Compile Include="Assets\Scripts\RandomSpawner.cs" />
      <Compile Include="Assets\Scripts\Restart.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\Scripts\Shoot.cs" />
+=======
+     <Compile Include="Assets\Scripts\ShootForward.cs" />
+>>>>>>> 5cbaa49bed5364ac2e185ec42946fc334742f68a
      <Compile Include="Assets\Scripts\playercontrol.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
